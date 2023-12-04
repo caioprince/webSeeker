@@ -13,8 +13,8 @@ RED='\033[0;31m'
 usage() {
     echo "Usage: $0 -w <wordlist> -u <url> [-a <user_agent>] [-o <output_file>]"
     echo "Examples:"
-    echo "  $0 -w wordlist.txt -u http://example.com"
-    echo "  $0 -w wordlist.txt -u http://example.com -a customAgent -o output.txt"
+    echo "  $0 -w wordlist.txt -u example.com"
+    echo "  $0 -w wordlist.txt -u example.com -a customAgent -o output.txt"
     exit 1
 }
 
