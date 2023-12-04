@@ -49,10 +49,6 @@
               <td>Specify the user agent for HTTP requests (default: webSeeker).</td>
           </tr>
           <tr>
-              <td><code>-x, --extension EXTENSION</code></td>
-              <td>Specify the file extension to filter results (optional).</td>
-          </tr>
-          <tr>
               <td><code>-o, --output OUTPUT_FILE</code></td>
               <td>Specify the output file for results (optional).</td>
           </tr>
@@ -63,10 +59,10 @@
 
   <pre><code>
 # Scan with default settings
-./webSeeker.sh -w wordlist.txt -u http://example.com
+./webSeeker.sh -w wordlist.txt -u example.com
 
 # Scan with custom options
-./webSeeker.sh -w wordlist.txt -u http://example.com -a customAgent -x php -o output.txt
+./webSeeker.sh -w wordlist.txt -u example.com -a customAgent -o output.txt
 </code></pre>
 
   <h2>Permissions</h2>
